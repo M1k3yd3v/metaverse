@@ -5,12 +5,12 @@ const Navbar = ({ web3Handler, account }) => {
         <nav className="flex-between">
             <a
                 className='flex'
-                href="http://www.dappuniversity.com/bootcamp"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 <img src={logo} className="App-logo" alt="logo" />
-                Dapp University
+
             </a>
 
             {account ? (
